@@ -1,0 +1,70 @@
+/* Adjustments on Bootstrap classes */
+:root {
+    --bs-link-color: #2b3137;
+  }
+
+  .h-100 {
+    min-height: 100vh;
+  }
+  
+  .cover-container {
+    max-width: 42em;
+    margin: 100px 0;
+  }
+  
+  .nav.nav-pills {
+    gap: 30px;
+  }
+  .nav-link {
+    padding: 2px 0;
+  }
+  .navbar {
+    border-radius: 5px;
+  }
+  .nav-item {
+    padding: 5px 10px;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    border-bottom-color: var(--bs-link-color);
+    cursor: pointer;
+  }
+  
+  .nav-masthead .nav-link + .nav-link {
+    margin-left: 1rem;
+  }
+  
+  .nav-masthead .active {
+    color: var(--bs-link-color);
+    border-bottom-color: var(--bs-link-color);
+  }
+  
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link  {
+    border-radius: 0;
+    color: var(--bs-link-color);
+    background: none;
+    font-weight: bold;
+    border-bottom: 2px solid var(--bs-link-color);
+  }
+  
+  .list-group {
+    flex-wrap: wrap;
+  }
+  
+  /* Personal aditions */
+  
+  body {
+    background-color: #e6e8e8;
+  }
+  
+  footer.border-top {
+    border-top-color: #c7cdcd!important;
+  }
+  
+  .container-box {
+    box-shadow: 0 0 15px 0 #0000000f;
+    background-color: #fff;
+    border-radius: 6px;
+    color: #2b3137;
+  }
